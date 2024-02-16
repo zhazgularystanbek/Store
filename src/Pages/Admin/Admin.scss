@@ -1,0 +1,32 @@
+#admin {
+  padding: 70px 0;
+  .admin {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    width: 100%;
+    h1 {
+      color: rgb(99, 28, 223);
+    }
+    input {
+      width: 100%;
+      padding: 0 10px;
+      height: 50px;
+      border: none;
+      border-bottom: 1px solid rgb(99, 28, 223);
+      background: rgb(217, 217, 217);
+      font-size: 20px;
+    }
+    button {
+      border: none;
+      font-size: 30px;
+      padding: 5px 20px;
+      border-radius: 10px;
+      color: white;
+      background: rgb(99, 28, 223);
+    }
+  }
+}

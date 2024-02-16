@@ -1,0 +1,28 @@
+header {
+  background-color: rgb(63, 17, 81);
+  position: sticky;
+  inset: 0;
+  width: 100%;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    span {
+      color: rgb(132, 234, 128);
+      font-size: 32px;
+    }
+    nav {
+      display: flex;
+      gap: 40px;
+      a {
+        font-size: 25px;
+        color: rgb(242, 242, 242);
+        transition: 0.3s;
+      }
+      .active {
+        color: rgb(236, 230, 109);
+      }
+    }
+  }
+}
